@@ -1,0 +1,78 @@
+#website{
+    font-size: 15px;
+    margin-left: 34px;
+}
+
+
+.title h1{
+    font-size: 30px;
+    text-align: center;
+    border: 1px rgb(255, 72, 72) solid;
+    border-radius: 15px;
+    background-color: rgb(255, 72, 72);
+    padding: 10px;
+    box-shadow: 5px 5px rgb(0, 0, 0);
+}
+
+.title{
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+.cardsize{
+    width: 50%;
+}
+
+.rowss{
+    justify-content: center;
+}
+
+#text-font{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+
+.carouselsize{
+    width: 30%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.titlebiodata{
+    color: rgb(230, 0, 0);
+    font-weight: bolder;
+}
+
+.fotomember img{
+    margin: auto;
+    display: block;
+    width: 10%;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 5px red;
+}
+
+.cardbiodata{
+    margin: auto;
+    display: block;
+}
+
+@media screen and (max-width:768px) {
+    .container-biodata{
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .cardbiodata{
+        max-width: 80%;
+    }
+
+    .fotomember img{
+        max-width: 100%;
+        width: 20%;
+    }
+}
